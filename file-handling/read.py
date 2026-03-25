@@ -1,0 +1,6 @@
+f=open("this.txt",'+r')
+data=f.read()
+print(data)
+f.write("i love eating :-")
+print(data)
+f.close()
