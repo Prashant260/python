@@ -1,0 +1,43 @@
+*** time complexity & space complexity ***
+time complexity in computer science is how the execution time of an  
+algorithm  grows as input size is increases.it essentially quantifies 
+the number of operations of an algorithm performs as the input data size.  
+
+Notations for the Time and Space complexities: 
+1. Best case (omega)
+2. average case(theta)
+3. worst case (Big-O)
+
+example:-
+i=0
+x=5
+for i in range (n):
+  if i==x:
+    break 
+  print(i,end=" ")
+                    -: for this e.g. time complexity notations are :-
+                        - the best case is omega(1)
+                        - the worst case is big-O(n)
+                        - the average case  theata (n/2) 
+
+------>types of time complexities<-----------
+
+O(1)-->constant       : single run
+O(n^2)--> quadratic   : nested loops
+O(log n)-->logrithmic : keep multiplying and divide and the constant is used as the base of log. 
+O(2^n)--> exponential : recurssion
+O(nlogn)--> linearithmic
+O(n^3)--> cubic
+O(n!)--> factorial 
+
+
+-------->cmparisionn of time complexities<---------
+
+O(1)->O(log n)->O(n)->O(nlog n)->O(n^2)->O(2^n)->O(n!)
+
+______________________________________________________________________________________________________________________________________________
+
+Space complexity reffers to the amount of memory the algorithm uses as a function of input size.
+it's a measure of how much memory an algorithm requires to execute and solve a problem.
+
+______________________________________________________________________________________________________________________________________________
